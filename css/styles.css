@@ -7,6 +7,23 @@ body{
     background-color: brown;
 
 } */
+.navigation{
+    /* display: grid; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(200, 198, 198);
+}
+.navigation li{
+    display: inline;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+.navigation a:link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 table{
    border-collapse: collapse;
    width: 35%;
